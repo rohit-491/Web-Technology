@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\style3.css"?>
+<books>
+<h1>Welcome to GFG</h1>
+<book class="A">
+<title>Title:- A Passage to India</title>
+<author>Author name:-E.M. Foster</author>
+<date>Date:-June 1924</date>
+<edition>edition:-3</edition>
+<price>price:-350</price>
+</book>
+
+<book class="B">
+<title>Title:-A Revenue Stamp</title>
+<author>Author name:-Amrita Pritam</author>
+<date>Date:-1797</date>
+<edition>edition:-2</edition>
+<price>price:-300</price>
+</book>
+
+<book class="C">
+<title>Title:-A Tale of Two Cities</title>
+<author>Author name:-Charles Darwin</author>
+<date>Date:-November 1859</date>
+<edition>price:-edition:-5</edition>
+<price>price:-400</price>
+</book>
+
+<book class="D">
+<title>Title:- A Woman's Life</title>
+<author>Author name:-Guy de Maupassant</author>
+<date>Date:-1888</date>
+<edition>edition:-1</edition>
+<price>price:-200</price>
+</book>
+</books>
