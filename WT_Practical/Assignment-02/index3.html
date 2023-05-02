@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .navbar {
+            display: flex;
+            position: relative;
+            align-items: center;
+            height: 69px;
+        }
+
+        .navbar::before {
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+            background-color: rgb(100, 96, 96);
+
+        }
+
+        .navbar ul li {
+            list-style: none;
+
+            font-size: 1.2rem;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            margin: 12px;
+            border-radius: 20px;
+            color: black;
+        }
+
+        .navbar ul li a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 14px;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        .navbar img {
+
+            height: 69px;
+            width: 114px;
+        }
+
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            height: 200px;
+            background: url('img2/abc.jpg') no-repeat center center/cover;
+            height: 542px;
+            opacity: 1;
+        }
+
+
+        .welcome::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+        }
+
+        .meal h1 {
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .welcome p {
+            text-align: center;
+            color: white;
+        }
+
+        .btn {
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .services {
+            border: 2px solid brown;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            flex-direction: column;
+            margin: 4px;
+            background-color: rgb(201, 189, 189);
+        }
+
+        .services img {
+            height: 250px;
+            width: 200px;
+            margin-left: 150px;
+            margin-top: 4px;
+            background-color: rgb(201, 189, 189);
+        }
+
+        .services p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .our {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        .ABC {
+            font-size: 30px;
+            padding-left: 650px;
+        }
+
+        .client img {
+            height: 150px;
+            width: 150px;
+            padding: 30px;
+            padding-left: 180px;
+        }
+
+
+        .client {
+            background: url(img2/client.jpeg) no-repeat center center/cover;
+            width: auto;
+            height: auto;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/img2/logo_hotel.webp" alt="Restaurant_logo" name="img2" id="img2">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+    </div>
+    </div>
+
+    <section class="welcome">
+        <h1 class="meal">Welcome to our meal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa provident id ipsum numquam officia odit iusto
+            repudiandae soluta dolorum necessitatibus culpa possimus quae ullam! </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cum asperiores impedit sequi suscipit.
+            Possimus aliquam sequi veritatis nemo similique adipisci corporis! Quasi, alias minima?</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <h1 class="our">Our services</h1>
+    <div class="container">
+        <section class="services">
+            <img src="img2/deliveryboy.webp" alt="deliveryboy">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti adipisci, magni amet cumque
+                omnis numquam non alias debitis fugiat, cupiditate minima? Deserunt qui nihil rem provident. Sed, at
+                libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto illo harum dolor tenetur, natus
+                nihil libero commodi quaerat illum minus! Possimus voluptatibus minus facilis aliquid libero, ex
+                recusandae rem corrupti!</p>
+        </section>
+
+        <section class="services">
+            <img src="img2/pizza.webp" alt="pizza.webp">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti adipisci, magni amet cumque
+                omnis numquam non alias debitis fugiat, cupiditate minima? Deserunt qui nihil rem provident. Sed, at
+                libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto illo harum dolor tenetur, natus
+                nihil libero commodi quaerat illum minus! Possimus voluptatibus minus facilis aliquid libero, ex
+                recusandae rem corrupti!</p>
+        </section>
+
+        <section class="services">
+            <img src="img2/burger.webp" alt="burger.webp">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti adipisci, magni amet cumque
+                omnis numquam non alias debitis fugiat, cupiditate minima? Deserunt qui nihil rem provident. Sed, at
+                libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto illo harum dolor tenetur, natus
+                nihil libero commodi quaerat illum minus! Possimus voluptatibus minus facilis aliquid libero, ex
+                recusandae rem corrupti!</p>
+        </section>
+    </div>
+
+    <section class="client">
+        <h1 class="ABC">Our Clients</h1>
+        <img src="img2/Kfc_logo.png" alt="kfc_logo">
+        <img src="img2/McDonalds-Logo-Design.webp" alt="Mcdonald_logo">
+        <img src="img2/Google-Logo-Design.webp" alt="google_logo">
+        <img src="img2/Walmart-Logo-Design.webp" alt="Walmart_logo">
+    </section>
+
+    .
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- .form {
+    font-size: 15px;
+    /* margin: 106px 40px; */
+    padding: 50px;
+    width: 36%;
+    border-radius: 28px;
+    padding-left: 200px;
+    /* padding-top: 155px; */
+    
+}
+
+.form h1 {
+    color:black;
+    padding-left:150px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input  {
+    text-align: center;
+    color: black;
+    margin: 2px 200px;
+    padding: 2px;
+}
+
+.btn1{
+    color: black;
+    background-color:white;
+    padding: 8px;
+    border-radius: 15px;
+    width: 110px;
+    
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+} -->
